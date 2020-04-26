@@ -1,29 +1,27 @@
 {
-  "name": "tutorial-bot",
+  "name": "sleepless-discordjs-tutorial-bot",
   "version": "1.0.0",
-  "description": "Bot for my YouTube tutorials",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xkyrux/Sleepless-DiscordJS-tutorial-bot.git"
+    "url": "git+https://github.com/xkyrux/xkyrux-Sleepless-DiscordJS-tutorial-bot.git"
   },
-  "keywords": [
-    "Discord",
-    "js",
-    "node",
-    "tutorial",
-    "bot",
-    "premade",
-    "sleepless",
-    "developer"
-  ],
-  "author": "Sleepless Kyru",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xkyrux/Sleepless-DiscordJS-tutorial-bot/issues"
+    "url": "https://github.com/xkyrux/xkyrux-Sleepless-DiscordJS-tutorial-bot/issues"
   },
-  "homepage": "https://github.com/xkyrux/Sleepless-DiscordJS-tutorial-bot#readme"
+  "homepage": "https://github.com/xkyrux/xkyrux-Sleepless-DiscordJS-tutorial-bot#readme",
+  "dependencies": {
+    "ascii-table": "0.0.9",
+    "common-tags": "^1.8.0",
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "nodemon": "^2.0.3"
+  }
 }
