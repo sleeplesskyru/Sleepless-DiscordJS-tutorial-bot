@@ -1,0 +1,29 @@
+{
+  "name": "tutorial-bot",
+  "version": "1.0.0",
+  "description": "Bot for my YouTube tutorials",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xkyrux/Sleepless-DiscordJS-tutorial-bot.git"
+  },
+  "keywords": [
+    "Discord",
+    "js",
+    "node",
+    "tutorial",
+    "bot",
+    "premade",
+    "sleepless",
+    "developer"
+  ],
+  "author": "Sleepless Kyru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xkyrux/Sleepless-DiscordJS-tutorial-bot/issues"
+  },
+  "homepage": "https://github.com/xkyrux/Sleepless-DiscordJS-tutorial-bot#readme"
+}
