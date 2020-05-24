@@ -5,7 +5,8 @@ module.exports = client => {
             status: 'dnd',
             activity: {
                 name: 'Discord.js Tutorials',
-                type: 'WATCHING'
+                type: 'STREAMING',
+                url: 'https://twitch.tv/sleeplesskyru'
             }
         });
 }

@@ -23,6 +23,6 @@
     "dotenv": "^8.2.0",
     "fs": "0.0.1-security",
     "mongoose": "^5.9.11",
-    "nodemon": "^2.0.3"
+    "nodemon": "^2.0.4"
   }
 }

@@ -31,7 +31,7 @@ function helpMSG(client, message) {
 function getCMD(client, message, input) {
     const embed = new MessageEmbed()
 
-    const cmd = client.commands.get(input.toLowerCase()) || client.commands.get(client.asliases.get(input.toLowerCase()));
+    const cmd = client.commands.get(input.toLowerCase()) || client.commands.get(client.aliases.get(input.toLowerCase()));
 
     let info = `No information found for command **${input.toLowerCase()}**`;
 
@@ -40,7 +40,7 @@ function getCMD(client, message, input) {
     }
 
     if (cmd.name) info = `**Command Name**: ${cmd.name}`
-    if (cmd.aliases) info += `\n**Aliases**: ${cmd.asliases.map(a => `\`{a}\``).join(', ')}`;
+    if (cmd.aliases) info += `\n**Aliases**: ${cmd.aliases.map(a => `\`{a}\``).join(', ')}`;
     if (cmd.description) info += `\n**Description**: ${cmd.description}`;
     if (cmd.usage) {
         info += `\n**Usage**: ${cmd.usage}`;
