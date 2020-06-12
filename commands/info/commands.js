@@ -17,6 +17,7 @@ function getAll(client, message) {
     .setColor(process.env.COLOR)
     .setTitle('Command List')
     .setThumbnail(client.user.avatarURL())
+    .setFooter('Created by Sleepless Kyru#7615')
     
     const commands = (category) => {
         return client.commands
