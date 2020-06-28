@@ -13,7 +13,7 @@ module.exports = {
             family:4
         };
 
-        mongoose.connect('mongodb+srv://admin:PUT_YOUR_PASSWORD_HERE@cluster0-vhj2k.mongodb.net/PUT_YOUR_DATABASE_NAME_HERE?retryWrites=true&w=majority', dbOptions);
+        mongoose.connect('PUT_YOUR_MONGODB_URI_HERE', dbOptions);
         mongoose.set('useFindAndModify', false);
         mongoose.Promise = global.Promise;
 
