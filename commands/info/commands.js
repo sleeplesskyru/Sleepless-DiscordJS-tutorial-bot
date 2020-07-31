@@ -6,7 +6,7 @@ module.exports = {
     aliases: ['c'],
     category: 'info',
     description: 'Displays a full list of bot commands.',
-    usage: `${(process.env.PREFIX)}commands`,
+    usage: `commands`,
     run: async (client, message) => {
         return getAll(client, message);
     }

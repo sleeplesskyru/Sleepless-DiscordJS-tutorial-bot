@@ -6,7 +6,7 @@ module.exports = {
     aliases: ['h'],
     category: 'info',
     description: 'Displays bot help message.',
-    usage: `${(process.env.PREFIX)}help [commandName]`,
+    usage: `help [commandName]`,
     run: async (client, message, args) => {
         if (args[0]) {
             return getCMD(client, message, args[0]);
