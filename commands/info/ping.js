@@ -4,7 +4,7 @@ module.exports = {
     name: 'ping',
     category: 'info',
     description: 'Returns bot and API latency in milliseconds.',
-    usage: `${(process.env.PREFIX)}ping`,
+    usage: `ping`,
     run: async (client, message, args) => {
         const msg = await message.channel.send('🏓 Pinging...');
 

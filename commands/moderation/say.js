@@ -4,7 +4,7 @@ module.exports = {
     name: 'say',
     category: 'moderation',
     description: 'Bot repeats what you tell it to.',
-    usage: `${(process.env.PREFIX)}say`,
+    usage: `say`,
     run: (client, message, args) => {
         message.delete()
 
