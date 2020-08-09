@@ -27,6 +27,12 @@ module.exports = async (client, message) => {
     const prefix = settings.prefix;
 
     if (!message.guild) return;
+
+    if(message.content === `<@!${client.user.id}>` || message.content === `<@${client.user.id}>`) {
+        return message.channel.send("This works.");
+    };
+
+
     if (!message.content.startsWith(prefix)) return;
     
     if (!message.member) message.member = await message.guild.fetchMember (message);
