@@ -13,7 +13,8 @@ module.exports = async (client, message) => {
                 _id: mongoose.Types.ObjectId(),
                 guildID: message.guild.id,
                 guildName: message.guild.name,
-                prefix: process.env.PREFIX
+                prefix: process.env.PREFIX,
+                logChannelID: null
             })
 
             newGuild.save()
