@@ -33,7 +33,7 @@ module.exports = {
             };
         });
 
-        const logChannel = message.guild.channels.get(guildDB.logChannelID);
+        const logChannel = message.guild.channels.cache.get(guildDB.logChannelID);
 
         if (!message.member.hasPermission('BAN_MEMBERS'))
             return message.channel.send('You do not have permission to use this command.').then(m => m.delete({timeout: 5000}));
@@ -50,7 +50,7 @@ module.exports = {
         User.findOne({
             guildID: message.guild.id,
             userID: member.id
-        }, (err, user) => {
+        }, async (err, user) => {
             if (err) console.error(err);
 
             if (!user) {
