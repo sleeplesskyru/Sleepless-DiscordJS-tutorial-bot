@@ -22,7 +22,7 @@
     "discord.js": "^12.2.0",
     "dotenv": "^8.2.0",
     "fs": "0.0.1-security",
-    "mongoose": "^5.9.11",
+    "mongoose": "^5.13.15",
     "nodemon": "^2.0.4"
   }
 }
